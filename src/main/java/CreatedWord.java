@@ -27,7 +27,7 @@ public class CreatedWord {
         run.setText("第一个使用poi成功创建的word");
         run.setFontFamily("楷体");
         run.setFontSize(20);
-        run.setColor("FF0000");
+        run.setColor("FF00FF");
         run.setBold(true);
         run.setText("1测试用的文本1",1);
         run.setText("2测试用的文本2",2);
