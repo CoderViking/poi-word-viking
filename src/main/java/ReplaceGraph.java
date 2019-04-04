@@ -16,8 +16,8 @@ public class ReplaceGraph {
     public static void main(String[] args) throws IOException {
         String path = "F:/poi-word-test/ReadDoc.docx";
         XWPFDocument document = new XWPFDocument(POIXMLDocument.openPackage(path));
-        Map<String,String> map = new HashMap<String, String>();
-        List<String> list = new ArrayList<String>();
+        Map<String,String> map = new HashMap<>();
+        List<String> list = new ArrayList<>();
 
     }
     //替换段落文本
