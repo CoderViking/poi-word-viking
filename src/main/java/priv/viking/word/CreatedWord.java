@@ -1,3 +1,5 @@
+package priv.viking.word;
+
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.util.Units;
 import org.apache.poi.xwpf.model.XWPFHeaderFooterPolicy;
@@ -86,7 +88,7 @@ public class CreatedWord {
         xwpfRun4.setFontFamily("Webdings");
         xwpfRun4.setFontSize(16);
         xwpfRun4.addCarriageReturn();
-        FileOutputStream outputStream = new FileOutputStream("F:/poi-word-test/CreateTest.doc");
+        FileOutputStream outputStream = new FileOutputStream("F:/poi-word-test/CreateTest_01.doc");
         document.write(outputStream);
         outputStream.close();
     }
